@@ -235,10 +235,8 @@ body {
 /* *************************/
 .section-how {
   padding: 9.6px;
-  background-color: orangered;
 }
 
-.section-how div div {
-  padding: 100px;
-  font-size: 50px;
+.step-img {
+  width: 50%;
 }
