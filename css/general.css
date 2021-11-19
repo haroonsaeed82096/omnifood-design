@@ -69,7 +69,8 @@ body {
 }
 .grid {
   display: grid;
-  gap: 9.6rem;
+  column-gap: 6.4;
+  row-gap: 9.6rem;
 }
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
@@ -79,7 +80,8 @@ body {
 }
 
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.heading-tertiary {
   font-weight: 700;
   color: #333;
   color: #2e1907;
@@ -98,6 +100,9 @@ body {
   margin-bottom: 9.6rem;
 }
 .heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2rem;
+  margin-bottom: 3.2rem;
 }
 .subheading {
   display: block;
